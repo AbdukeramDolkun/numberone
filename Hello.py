@@ -3,22 +3,23 @@ import streamlit as st
 import numpy as np
 import altair as alt
 st.write('ئادەم')
-st.header('what the hell')
-if st.button ('click the button'):
-    st.write('a')
-else:
-    st.write('b')
-st.caption('*-*-ssss')
+genre = st.radio(
+    "What's your favorite movie Music",
+    [":rainbow[A]", ":rainbow[B]", ":rainbow[C]:movie_camera:"],
+    captions = ["a", "b", "c"])
+import streamlit as st
 
-df = pd.DataFrame({
-    'first column':[1,2,3,4],
-    'secon column':[10,20,30,40]})
-st.write(df)
-df1= pd.DataFrame(
-    np.random.randn(10,3,),
-    columns=['a','b','c'])
-st.write(df1)
-c = alt.Chart(df1).mark_circle().encode(
-     x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
-st.write(c)
+#st.link_button("Go to gallery", "https://streamlit.io/gallery")
+if genre == ':rainbow[A]':
+    st.write('You selected A type of music')
+    st.link_button("click the URL" ,"https://tool.liumingye.cn/music/#/search/M/song/Merry%20Christmas%20Mr.Lawrence%20(圣诞快乐,劳伦斯先生)")
+if genre== ':rainbow[B]':
+    st.write('You selected B type of music')
+    st.link_button("click the URL", "https://tool.liumingye.cn/music/#/explore/artist")
+if genre== ':rainbow[C]:movie_camera:':
+    st.write('You Selected C type of music')
+    st.link_button("click the URL" , "https://tool.liumingye.cn/music/#/explore/artist")
+# else:
+#     st.write("You didn\'t select")
+
 st.balloons()
