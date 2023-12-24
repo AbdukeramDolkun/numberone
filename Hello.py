@@ -1,10 +1,7 @@
-import pandas as pd
 import streamlit as st
-import numpy as np
-import altair as alt
 st.write('ئادەم')
 genre = st.radio(
-    "What's your favorite movie Music",
+    "What's your favorite Music? Listen music for free!",
     [":rainbow[A]", ":rainbow[B]", ":rainbow[C]:movie_camera:"],
     captions = ["a", "b", "c"])
 import streamlit as st
