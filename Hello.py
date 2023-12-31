@@ -1,22 +1,51 @@
 import streamlit as st
-st.write('ئادەم')
+import emoji
+st.markdown('# page one 🐈')#☠ 😹 🥷 ️ ⛹️‍♂️ 🧞‍♂️  👶  ☠ 💦
+st.sidebar.markdown("# 🦸‍♂ ")
+st.write('# 📚 🎶 🧛 🤖 🔍 💦') #如果前面加了这个符号就是#大写了。
 genre = st.radio(
-    "What's your favorite Music? Listen music for free!",
-    [":rainbow[A]", ":rainbow[B]", ":rainbow[C]:movie_camera:"],
-    captions = ["a", "b", "c"])
+    "# ",
+    [":rainbow[e-books1]",":rainbow[e-books2]", ":rainbow[music🎶]", ":rainbow[anime🧞]" ,
+     ":rainbow[coding🤖]", ":rainbow[research🔍]" ,":rainbow[cracks detection🚧]", ":rainbow[free magazine]"],
+    captions = ["📚", "🎶","🎶", "🧛","🤖" ,"🔍","🚧" ,"📰"])
 import streamlit as st
 
 #st.link_button("Go to gallery", "https://streamlit.io/gallery")
-if genre == ':rainbow[A]':
-    st.write('You selected A type of music')
-    st.link_button("click the URL" ,"https://tool.liumingye.cn/music/#/search/M/song/Merry%20Christmas%20Mr.Lawrence%20(圣诞快乐,劳伦斯先生)")
-if genre== ':rainbow[B]':
-    st.write('You selected B type of music')
-    st.link_button("click the URL", "https://tool.liumingye.cn/music/#/explore/artist")
-if genre== ':rainbow[C]:movie_camera:':
-    st.write('You Selected C type of music')
-    st.link_button("click the URL" , "https://tool.liumingye.cn/music/#/explore/artist")
+if genre == ':rainbow[e-books1]':
+    st.write('You selected 📚')
+    st.link_button("click the URL" ,"https://sobooks.net/")
+if genre == ':rainbow[e-books2]':
+    st.write('You selected 📚')
+    st.link_button("click the URL" ,"https://z-library.se/")
+if genre== ':rainbow[music🎶]':
+    st.write('You selected 🎶')
+    st.link_button("click the URL", "https://tool.liumingye.cn/music/#/")
+if genre== ':rainbow[anime🧞]':
+    st.write('You selected 🧞')
+    st.link_button("click the URL" , "https://m.dilidiliw.com/")
+#编程网站
+if genre== ':rainbow[coding🤖]':
+    st.write('You selected 🤖')
+    st.link_button("click the URL" , "https://www.runoob.com/")
+
+#文献搜索网站
+if genre== ':rainbow[research🔍]':
+    st.write('You selected 🔍')
+    st.link_button("click the URL" , "https://scholar.chongbuluo.com/")
+#路面病害检测
+if genre== ':rainbow[cracks detection🚧]':
+    st.write('You selected 🚧')
+    st.link_button("click the URL" , "https://binghaijiancexitong.streamlit.app/")
+
+#free magazine
+if genre== ':rainbow[free magazine]':
+    st.write('You selected 📰')
+    st.link_button("click the URL" , "https://freemagazines.top/")
+
 # else:
 #     st.write("You didn\'t select")
 
 st.balloons()
+
+#st.markdown('# page 2️⃣')
+#st.sidebar.markdown('# 🧛')
