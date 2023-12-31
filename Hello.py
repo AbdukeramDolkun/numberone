@@ -1,5 +1,4 @@
 import streamlit as st
-import emoji
 st.markdown('# page one 🐈')#☠ 😹 🥷 ️ ⛹️‍♂️ 🧞‍♂️  👶  ☠ 💦
 st.sidebar.markdown("# 🦸‍♂ ")
 st.write('# 📚 🎶 🧛 🤖 🔍 💦') #如果前面加了这个符号就是#大写了。
