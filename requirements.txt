@@ -3,5 +3,3 @@ rembg
 Pillow
 numba
 numpy
-tkinter
-datetime
