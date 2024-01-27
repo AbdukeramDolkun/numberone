@@ -1,4 +1,6 @@
 import streamlit as st
+import tkinter as tk
+from datetime import datetime
 st.markdown('# page one 🐈')#☠ 😹 🥷 ️ ⛹️‍♂️ 🧞‍♂️  👶  ☠ 💦
 st.sidebar.markdown("# 🦸‍♂ ")
 st.write('# 📚 🎶 🧛 🤖 🔍 💦') #如果前面加了这个符号就是#大写了。
@@ -48,3 +50,20 @@ st.balloons()
 
 st.markdown('# page 2️⃣')
 st.sidebar.markdown('# 🧛')
+
+
+def update_calendar():
+    now = datetime.now()
+    current_time = now.strftime("%Y-%m-%d %H:%M:%S")
+    label.config(text="当前日期和时间: " + current_time)
+    label.after(1000, update_calendar)  # 每1000毫秒（1秒）更新一次
+
+root = tk.Tk()
+root.title("实时更新日历")
+
+label = tk.Label(root, font=('calibri', 20, 'bold'), background='purple', foreground='white')
+label.pack(pady=20)
+
+update_calendar()
+
+root.mainloop()
