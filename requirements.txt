@@ -3,5 +3,5 @@ rembg
 Pillow
 numba
 numpy
-hydralit
+hydralit_components
 datetime
