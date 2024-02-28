@@ -47,7 +47,6 @@ if genre== ':rainbow[free magazine]':
 #     st.write("You didn\'t select")
 
 
-st.set_page_config(layout='wide')
 
 st.balloons()
 st.image('a.png', caption='Sunrise by the mountains')
