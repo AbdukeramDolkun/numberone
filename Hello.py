@@ -46,6 +46,6 @@ if genre== ':rainbow[free magazine]':
 #     st.write("You didn\'t select")
 
 st.balloons()
-
+st.image('a.png', caption='Sunrise by the mountains')
 st.markdown('# page 2️⃣')
 st.sidebar.markdown('# 🧛')
