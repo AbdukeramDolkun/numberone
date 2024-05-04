@@ -78,6 +78,6 @@ if genre== ':rainbow[free magazine]':
 #st.image('b.jpg', caption='Sunrise by the mountains')
 #st.image('d.jpg', caption='Sunrise by the mountains')
 st.balloons()
-st.image('a.png', caption='Sunrise by the mountains')
+#st.image('a.png', caption='Sunrise by the mountains')
 st.markdown('# page 2️⃣')
 st.sidebar.markdown('# 🧛')
