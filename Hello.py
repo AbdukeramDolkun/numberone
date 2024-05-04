@@ -74,9 +74,9 @@ if genre== ':rainbow[free magazine]':
 #     st.write("You didn\'t select")
 
 
-st.image('c.jpg', caption='Sunrise by the mountains')
-st.image('b.jpg', caption='Sunrise by the mountains')
-st.image('d.jpg', caption='Sunrise by the mountains')
+#st.image('c.jpg', caption='Sunrise by the mountains')
+#st.image('b.jpg', caption='Sunrise by the mountains')
+#st.image('d.jpg', caption='Sunrise by the mountains')
 st.balloons()
 st.image('a.png', caption='Sunrise by the mountains')
 st.markdown('# page 2️⃣')
