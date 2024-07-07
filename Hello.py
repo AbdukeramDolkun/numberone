@@ -22,7 +22,7 @@ if genre == ':rainbow[e-books1]':
     st.link_button("click the URL" ,"https://sobooks.net/")
 if genre == ':rainbow[e-books2]':
     st.write('You selected 📚')
-    st.link_button("click the URL" ,"https://z-library.se/")
+    st.link_button("click the URL" ,"https://z-library.cc/")
 if genre== ':rainbow[music🎶]':
     st.write('You selected 🎶')
     st.link_button("click the URL", "https://tool.liumingye.cn/music/#/")
