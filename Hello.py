@@ -7,7 +7,6 @@ st.markdown('# page one 🐈')#☠ 😹 🥷 ️ ⛹️‍♂️ 🧞‍♂️  
 
 over_theme = {'txc_inactive': '#FFFFFF'}
 
-st.write(menu_id)
 st.sidebar.markdown("# 🦸‍♂ ")
 st.write('# 📚 🎶 🧛 🤖 🔍 💦') #如果前面加了这个符号就是#大写了。
 genre = st.radio(
